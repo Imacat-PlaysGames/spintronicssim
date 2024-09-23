@@ -9,7 +9,7 @@ const upperAngleLimit = 288 * (1/360)*2*Math.PI;
 
 export class CapacitorPart extends PartBase
 {
-    static possibleCapacitanceValues = [0.0001, 0.0005, 0.001, 0.005, 0.01, 0.05];
+    static possibleCapacitanceValues = [0.0001, 0.0005, 0.001, 0.005, 0.01, 0.05, 1];
 
     constructor (scene, x, y, planckWorld)
     {
